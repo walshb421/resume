@@ -8,124 +8,216 @@
 \marginsize{2cm}{2cm}{0.5cm}{2cm}
 
 \begin{document}
-	\centering
-	{\huge
-		Benjiman Walsh
-	}
+	
+	\noindent {\huge Benjiman Walsh}
 
-	\vspace{0.75cm}
-    
-    \hspace{1.75cm}
-    \raggedright
-    \faGithub 
+	\vspace{0.5cm}
+
+	\noindent
+    \faGithub
 	\hspace{0.15cm}
 	walshb421
-	\hspace{0.75cm}
+	\hfill
 	\faEnvelope
 	\hspace{0.15cm}
 	walsh.ben@hotmail.com	
-	\hspace{0.75cm}
+	\hfill
 	\faPhone
 	\hspace{0.15cm}
 	(541) 913-4202
 	
-	\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 	
+	\section*{Professional Summary}
 	
-	\raggedright
-	\hspace{0.5cm}
-	
-	% Profile
-	Hardworking and versatile computer science graduate interested in gaining experience in software engineering, robotics and DevOps.
-	
-	
-	\noindent
-	\begin{minipage}[t]{0.45\linewidth}
+	\section*{Skills}
+	\begin{itemize}
+		\item Systems Administration
+		\begin{itemize}
+			\item Leaned skills needed to troubleshoot computer hardware, operating systems, virtual machines and application software
+			\item Learned how to inherit subpar systems and contribute meaningfull documentation and advice for leadership
+			\item Learned extensively how virtual machines and containers are used in a production environment
+			\item Learned how to use automation tools such as ansible in a production environment
+			\item Learned the importance of continuous integration/deployment for a production environment
+			\item Attained knowledge that filled in the gaps between other coursework
+			\item Learned how to use and configure task schedulers
+			\item Plan, install and troubleshoot LANs and WANs
+			\item Work in a team environment
+		\end{itemize}
 
-		\vspace{0.5cm}
+		\item Digital Logic and Design
+		\begin{itemize}
+			\item Learned how to use logic gates to design digital systems
+			\item Learned how to use hardware design languages (SystemVerilog) to model logic and hardware to program FPGAs
+		\end{itemize}
+
+		\item Software Engineering
+		\begin{itemize}
+			\item Learned about the Software Development Lifecycle and its importance 
+			\item Worked on multiple group projects, learning teamwork and leadership skills
+			\item Learned the difference between Agile and Waterfall methodologies and where they are used
+			\item Learned multiple software testing frameworks which all included black box testing, unit testing, integration testing, system testing and acceptance testing
+			\item Learned about various software design patterns and where they are useful
+		\end{itemize}
+
+		\item Cloud Application Development
+		\begin{itemize}
+			\item Learned how to engineer basic cloud applications
+			\item Used containerization to deploy a RESTful API backed up by noSQL and SQL databased, caching services, and messaging services
+			\item Worked in a term long group project, leading my group to success by documenting a github flow branchin strategy early on and assigning issues
+			\item Learned how to use docker and docker-compose efficiently to build web applications without needing to install and manage dependencies locally
+			\item Used multiple API testing tools including cURL and Postman
+		\end{itemize}
+
+		\item Computer Graphics
+		\begin{itemize}
+			\item Built various programs using OpenGL that demonstrated advanced knowledge of the computer graphics pipeline
+		\end{itemize}
+
+		\item Computer Architecture
+		\begin{itemize}
+			\item Learned the innerworkings of a processor across multiple architectures
+			\item Learned how to program in assembly using an Instuction set architecture
+			\item Used Atmel Assembly to program an Atmega128 to perform various high level tasks
+		\end{itemize}
+
+		\item Translators
+		\begin{itemize}
+			\item Learned the innerworkings of a compiler (how to scan, parse, abstruct and construct other languages)
+		\end{itemize}
+
+		\item Data Structures/Algorithms
+		\begin{itemize}
+			\item Learned how to structure data and optimize how it is used for algorithms
+			\item Learned the importance of data stuctures and algorithms in theory, and used this knowledge to build these concepts in code
+			\item Learned how to model code using pseudo code and use discrete math to optimize and model code. 
+		\end{itemize}
+
+		\item Relational Databases
+		\begin{itemize}
+			\item Learned how to model data storage needs using relational algrebra
+			\item Learned how to deploy real web applications that use a relational database
+			\item Worked within a group to give a web application access to an SQL database
+			\item Learned how to normalize a database to the fourth normal form
+		\end{itemize}
+
+		\item Operating Systems
+		\begin{itemize}
+			\item Learned the components of a modern day operating system
+			\item Learned how to build shells, operating system aware apps and take advantage of mutexes and parralism
+			\item Learned how to build a basic kernel (JOS), implementing booting, memory management, user environments and preemptive multitasking
+			\item Learned how to maintain, diagnose, patch and efficiently use linux and windows operating systems
+		\end{itemize}
+
+	\end{itemize}
+
+	\section*{Projects}
+
+	\noindent \textbf{Taurpalin API}
+	{\hfill 2022}
+	\begin{itemize}
+		\item Used a Github Flow branching strategy 
+		\item Led a successful project using tools on github
+		\item Demonstrated and in depth understanding of containerization by designing a docker-compose app that every team member could use without installing any local dependencies
+		\item Communicated efficiently with teammates of multiple skill levels to get project done ahead of schedule and stuck to initial plan
+	\end{itemize}
+
+	\noindent \textbf{Virtual Automotive Cluster}
+	{\hfill 2021}
+	\begin{itemize}
+		\item Used OpenGL to build a working dashboard cluster that contained a working speedometer, tachometer, fuel guage and temperature guage.
+		\item Coded in C++, FreeGlut, OpenGL, using shaders, textures, animation
+		\item Used a basic Makefile to compile multiple files and parts
+	\end{itemize}
+
+	\noindent \textbf{JOS Labs}
+	{\hfill 2021}
+	\begin{itemize}
+		\item Worked individually to build MIT's Operating Systems Engineering JOS kernel
+		\item Implemented booting, memory management, user environments and preemptive multitasking
+		\item Used ctags, tmux, vim and qemu to develop project on a school server
+		\item Used advanced knowledge of GDB to debug and understand the assembly being ran from compiled code
+	\end{itemize}
+
+	\noindent \textbf{FPGA Design Project}
+	{\hfill 2019}
+	\begin{itemize}
+		\item Worked on a small team to build multiple device drivers for an Intel FPGA
+		\item Built a driver for the seven segment display, a NES controller, audio output and VGA output using SystemVerilog
+		\item Demonstrated advanced knowlege of digital design methodology, and documentation using LaTex
+		\item Used git to collaborate across as a team and manage code
+	\end{itemize}
+
+
+	\section*{Experience}
+	
+	\noindent \textbf{Telematics Developer}
+	{\hfill 2021 | 2022}
+
+	\noindent Global Formula Racing $\vert$ Corvallis, OR
+	\begin{itemize}
+		\item Took responsiblity for a full stack project 
+		\item Attended meetings multiple times a week, presenting project progress twice a week
+		\item Worked on-site and remotely with an international team
+		\item Communicated complex computer engineering ideas to a mu ltidisciplinary team
+		\item Worked independently
+		\item Deployed a containerized data collection application on a driverless racecar collecting
+		\item Worked with Robot Operating System (ROS) for the driverless systems and Controller Area Networks (CAN) for the electric car
+		\item Used an agile methodology to develop the backend end and test and rule out multiple already established front-end applications
+		\item Assisted teammates in building and documenting GFR's software stack
+		\item Contributed to the computer vision portion of the stack, using OpenCV
+	\end{itemize}
+
+	\noindent \textbf{Warehouse Associate}
+	{\hfill 2019 | 2021}
+
+	\noindent Amazon.com LLC $\vert$ Troutdale, OR
+	\begin{itemize}
+		\item Attended daily stand up, worked independently to meet hourly and daily goals
+		\item Worked alongside robotic assemblies and assisted in troubleshooting errors
+		\item Worked with a complex inventory management system with a Linux POS
+	\end{itemize}
+
+	\noindent \textbf{Barista}
+	{\hfill 2017 | 2019}
+
+	\noindent Dutch Bros. Coffee $\vert$ Springfield, OR
+	\begin{itemize}
+		\item Worked graveyard shifts alone during busy weekends, while going to school during the week
+		\item Leaned a documnented process in order to achieve a flow state and produce coffee rapidly
+		\item Always focused on customers, to improve their days and serve them a good coffee and experience
+	\end{itemize}
+
 
 	\section*{Education}
-	2018 - 2022
-	
-	\textit{Oregon State University}
 
+	\noindent \textbf{Bachelor of Computer Science}
+	{\hfill 2018 | 2022}
 
-	\textbf{Bachelor of Science in Computer Systems}
+	\noindent Oregon State University $\vert$ Corvallis, OR
 
-	Corvallis, OR
-    
     \begin{itemize}
-        \item GPA 3.67 
-        \item Ford Family Foundation Scholarship Recipient
-        
-    \end{itemize}
-    
-    \section*{Projects}
-    
-    Septmeber 2021 - Present
-
-    \textbf{Global Formula Racing Telemetry}
-
-    Automating the collection and real-time visualizaton of data from a driverless, IoT racecar using a Raspberry Pi and Docker Compose. 
-    
-    \vspace{0.5cm}
-   
-    May 2022 - June 2022
-   
-    \textbf{Tarpaulin API}
-  
-    Simple containerized RESTful API, implemted with 4 other group members using NodeJS, Docker and a Github Flow branching strategy. 
-
-    \vspace{0.5cm}
- 
-    September 2017 - June 2018
-    
-    \textbf{Millers Integrated Nature Experience}
-    
-    Creative director heavily involved with the direction of two award winning magazines, Sonder issue no. 2 and Backcountry Review issue no. 4.
-	
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}[t]{0.45\linewidth}
-
-
-	\raggedright
-
-		\vspace{0.5cm}
-    \section*{Skills/Certifcations}
-
-	\textbf{Proficient in:} 
-	\begin{itemize}
-		\item Robot Operating System (ROS)
-		\item Controller Area Networks (CAN)
-		\item Raspberry Pi
-		\item Docker and Docker Compose
-		\item Linux, shell interfaces, Git and Github
-		\item REST API development
-		\item Virtualbox, WSL and computer architecture
+		\item Cum Laude, GPA 3.67
+		\item Computer Systems, ABET Accredited
+		\item Ford Scholar
 	\end{itemize}
-	\vspace{0.5cm}
-	
-	\textbf{Languages}
 
-	Bash, C/C++, Python, JavaScript/NodeJS, Atmel and x86 assembly, latex, and SystemVerilog
-	\vspace{0.5cm}
+	\noindent \textbf{Rotary Youth Embassador}
+	{\hfill 2015 | 2016}
 
-	\textbf{Fluent in Spanish}, B1 level
+	\noindent Instituto Menendez i Pelayo $\vert$ Barcelona, Spain
 
-	Certified by Instituto Cervantes
+	\begin{itemize}
+		\item Studied in Catalan and Spanish
+		\item Made social and professional connections with Rotarians
+		\item Learned leadership skills that forever altered perception of education and life
+	\end{itemize}
 
-	Madrid, Spain 2016
+    \section*{Certifcations}
+
+	\textbf{Fluent in Spanish, B1 level} \hfill 2016
+
+	\noindent Instituto Cervantes $\vert$ Madrid, Spain
 
     
-	\section*{Experience}
-	July 2019 - August 2021 (Summers)
 	
-	\textbf{Full Time Warehouse Associate}
-	
-	Amazon.com Services LLC
-
-	Troutdale, OR
-	
-	\end{minipage}
 \end{document}
